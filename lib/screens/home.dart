@@ -65,16 +65,19 @@ class _HomePageState extends State<HomePage> {
                 style: TextStyle(fontSize: 25.0),
               ),
               Text(
+                'Confirm : $confirm',
+                style: TextStyle(fontSize: 17.0),
+              ),
+              Text(
                 'Active : $active',
                 style: TextStyle(fontSize: 17.0),
               ),
               Text(
                 'Recovered : $recovery',
-                style: TextStyle(fontSize: 17.0),
-              ),
-              Text(
-                'Confirm : $confirm',
-                style: TextStyle(fontSize: 17.0),
+                style: TextStyle(
+                  fontSize: 17.0,
+                  color: Colors.green,
+                ),
               ),
               Text(
                 'Death : $deaths',

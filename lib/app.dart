@@ -9,7 +9,7 @@ class MyApp extends StatelessWidget {
       title: 'COVID-19 INDIA',
       theme: ThemeData(brightness: Brightness.light),
       darkTheme: ThemeData(brightness: Brightness.dark),
-      themeMode: ThemeMode.dark,
+      themeMode: ThemeMode.light,
       home: HomePage(),
     );
   }
